@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/check"
+            android:title="@string/check">
+            <menu >
+                <group android:checkableBehavior="single">
+                    <item android:title="@string/checkBmi"
+                        android:icon="@drawable/ic_one"
+                        android:id="@+id/checkBMI"/>
+                    <item android:id="@+id/checkCalo"
+                        android:icon="@drawable/ic_too"
+                        android:title="@string/checkCalo"
+                        />
+                    <item android:id="@+id/checkBody"
+                        android:title="@string/checkBody"
+                        android:icon="@drawable/ic_three"/>
+                </group>
+            </menu>
+
+        </item>
+        <item android:icon="@drawable/tuvan" android:title="@string/consult">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:title="@string/consultweigh"
+                        android:id="@+id/consultweight"
+                        android:icon="@drawable/weight"/>
+                    <item android:title="@string/consultbody"
+                        android:id="@+id/consultbody"
+                        android:icon="@drawable/bodyy"/>
+                </group>
+            </menu>
+        </item>
+        <item android:icon="@drawable/note"
+            android:id="@+id/notebook"
+            android:title="@string/notebook"/>
+    </group>
+</menu>

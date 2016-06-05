@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    android:weightSum="5">
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/information"/>
+    <FrameLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2.4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#66FFFFFF"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <EditText
+                    android:id="@+id/editText_age"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:hint="@string/age"/>
+                <EditText
+                    android:id="@+id/editText_height"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:hint="@string/height"/>
+                <EditText
+                    android:id="@+id/editText_weight"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:hint="@string/weight"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/choice"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupChoice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RadioButton
+                            android:id="@+id/who_radio_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="WHO(kg/m3)" />
+
+                        <RadioButton
+                            android:id="@+id/idi_wpro_radio_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="IDI-WPRO(kg/m2)" />
+                    </RadioGroup>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textViewSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/gender"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupSex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RadioButton
+                            android:id="@+id/male_radio_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/male" />
+
+                        <RadioButton
+                            android:id="@+id/female_radio_btn"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/female" />
+                    </RadioGroup>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/result"/>
+    <FrameLayout
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#66FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+        <LinearLayout
+            android:id="@+id/resultlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBMI"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#111111"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewResult"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/darkblue"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewKg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/darkred"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@drawable/plus" />-->
+    </FrameLayout>
+
+    <!--<FrameLayout-->
+    <!--android:background="#4d388E3C"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.6">-->
+    <!--<LinearLayout-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="3"-->
+    <!--android:orientation="horizontal">-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/ctlt"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/plate"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/tqsh"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->
+    <!--</FrameLayout>-->
+</LinearLayout>

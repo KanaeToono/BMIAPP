@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/primary_dark"
+    android:weightSum="11"
+    android:layout_height="match_parent">
+<FrameLayout
+
+    android:layout_marginTop="20dp"
+    android:layout_weight="8"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="#a6ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8">
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:weightSum="5"-->
+            <!--android:layout_weight="2">-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/subject"/>-->
+
+            <EditText
+                android:gravity="top"
+                android:textSize="18sp"
+                android:hint="@string/subject"
+                android:background="@drawable/backgroundedittext"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/editTextSubject"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1.5"/>
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="0.1"-->
+        />
+        <EditText
+            android:gravity="top"
+            android:background="@drawable/backgroundedittext"
+            android:hint="@string/content"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/editTextContent"
+            android:layout_weight="6.5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:weightSum="5"-->
+            <!--android:layout_weight="2">-->
+            <!--<Button-->
+                <!--android:background="@drawable/round_button_bg"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:id="@+id/btn_image"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="2"-->
+                <!--android:text="@string/btn_image"/>-->
+            <!--<ImageView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="120dp"-->
+                <!--android:id="@+id/avatar"-->
+                <!--android:layout_weight="3"/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</FrameLayout>
+
+    <Button
+            android:id="@+id/save_btn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/red"
+            android:textSize="20sp"
+            android:text="@string/btn_save"
+            android:textColor="@color/accent" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/red"
+            android:textSize="20sp"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/accent"
+            />
+
+</LinearLayout>

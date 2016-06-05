@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:background="#80ffffff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/adultTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng ngực"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6"
+                    android:text="1. Xoa bóp ngực, xoa bóp theo hình tròn 50 -100 lần, thực hiện 2 lần/ ngày "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.0"
+                    android:text="2. Tập tạ: nằm trên gế dài, mỗi tay giữ mỗi quả tạ ( 1- 2kg). Co chân lại sao cho toàn bộ thân nằm gọn trên gế, hai tay dang rộng ngang va, khuỷu tay tạo góc 90 so với ghế. Tiếp theo dùng 2 tay cầm tạ đang chéo trước ngực, trở về lại vị trí ban đầu . Thực hiện 8- 16 lần. "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="3. Nằm sấp, đầu gối chạm đất. Thở đều 10 - 15 lần"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:text="4. Nằm ngửa, tay duỗi quá đầu, chân duỗi sát đất, từ từ nhấc người lên, gập cánh tay vương chạm đầu gối, gồng cơ bụng lại vị trí ban đầu 10 - 15 lần"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng eo"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Massage bụng và gập bụng ( 10- 15 lần)/ ngày. Gập bụng 30 cái/ lần tập"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Lắc vòng : thực hiện 10p / ngày "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.0"
+                    android:text="3.Nằm ngửa, hai tay hai chân nâng cao hết cỡ rồi từ từ hạ xuống 5 lần/ 1 lần tập.Nâng chân và lưng: Nằm ngửa, hai tay đặt lên hông, bám sát đất, đẩy chân lên cao cùng với nhấc chân lên khỏi mặt đất rồi hạ xuống, thực hiện 5l/1l thực hiện."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/overweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng mông"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overrweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Bài tập đứng lên, ngồi xuống : 10 -15l/ ngày"
+                    android:textColor="#111111" />
+
+                <TextView
+                    android:id="@+id/overweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="2. Đi bộ lên dốc : 10 -15p / ngày."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overweightBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="3. Bước sang ngang kết hợp với leo cầu thang"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

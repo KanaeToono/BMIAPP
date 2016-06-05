@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="5"
+    android:background="@color/primary_dark"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_margin="5dp"
+    android:layout_weight="5"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:background="#a6ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="Người lớn"
+    android:textSize="20sp"
+    android:id="@+id/adultTextView"
+    />
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="BMI-Bình Thường"
+    android:textSize="18sp"
+    android:id="@+id/normalBmiTextView"
+    />
+ <TextView
+     android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="1. Ngủ đủ giấc, hạn chế thức khuya, dậy sớm, lập thời gian biểu"
+    android:textSize="18sp"
+    android:id="@+id/normalBmiconsult1TextView"
+    />
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="2. Thường xuyên vận động, luôn tạo tinh thần thoải mái, tránh xa stress."
+    android:textSize="18sp"
+    android:id="@+id/normalBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="3. Khám sức khỏe định kì."
+    android:textSize="18sp"
+    android:id="@+id/normalBmiconsult3TextView"
+    />
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="Cân nặng thấp "
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiTextView"
+    />
+ <TextView
+     android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="1. Ngủ đủ giấc(7-8h/ ngày), hạn chế thức khuya, dậy sớm, lập thời gian biểu"
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult1TextView"
+    />
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="2. Thường xuyên vận động, luôn tạo tinh thần thoải mái, tránh xa stress."
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.2"
+    android:text="3. Khám sức khỏe định kì.Nên ăn với nhiều người, dành nhiều thời gian cho bữa ăn, uống nhiều nước"
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult3TextView"
+    />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Thừa cân và Béo phì"
+            android:textSize="18sp"
+            android:id="@+id/overweightBmiTextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="1. Ngủ đủ giấc(7-8h/ ngày), tránh xa stress, uống nhiều nước (2-2,l)/ ngày."
+            android:textSize="18sp"
+            android:id="@+id/overrweightBmiconsult1TextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="2. Sau khi ăn nên đi lại, hạn chế ngồi một chỗ."
+            android:textSize="18sp"
+            android:id="@+id/overweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:text="3. Khám sức khỏe định kì, lập thời gian biểu, có chiến lược giảm cân hợp lí. Vận động thường xuyên.Hạn chế rượu bia, tiệc tùng. "
+            android:textSize="18sp"
+            android:id="@+id/overweightBmiconsult3TextView"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Trẻ em"
+            android:textSize="20sp"
+            android:id="@+id/childweightBmiTextView"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="BMI - Bình thường"
+            android:textSize="20sp"
+            android:id="@+id/normalweightBmiTextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="1. Ngủ đủ giấc(7-8h/ ngày), uống nhiều nước (1.5-2l)/ ngày."
+            android:textSize="18sp"
+            android:id="@+id/childnormalweightBmiconsult1TextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="2. Vận động, rèn luyện thân thể mỗi ngày giúp cơ thể khỏe mạnh, ngăn ngừa thừa cân, béo phì."
+            android:textSize="18sp"
+            android:id="@+id/childnormalweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:text="3. Xổ giun định kỳ 6 tháng / lần."
+            android:textSize="18sp"
+            android:id="@+id/childnormalweightBmiconsult3TextView"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Suy dinh dưỡng"
+            android:textSize="20sp"
+            android:id="@+id/childunderweightBmiTextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:text="1. Cần được khám bệnh, tìm nguyên nhân gây suy dinh dưỡng (SDD) để điều trị. Nguyên nhân thường gặp như bệnh dạ dày, ruột, đại tràng, các bệnh lý nhiễm trùng hay các bệnh mạn tính, hay do chế độ dinh dưỡng chưa đảm bảo ...."
+            android:textSize="18sp"
+            android:id="@+id/chilunderweightBmiconsult1TextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:text="2. Tăng cường vận động dưới nắng sáng mỗi ngày giúp tăng chiều cao tốt, giúp trẻ ăn uống ngon miệng hơn. Nên chơi những môn thể thao như bơi lội, cầu lông, bóng rổ... để tăng cường thể lực."
+            android:textSize="18sp"
+            android:id="@+id/childunderweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="3. Xổ giun định kỳ 6 tháng / lần. Cần ngủ đủ giấc, đảm bảo 8 giờ mỗi ngày, ngủ sớm trước 22 giờ."
+            android:textSize="18sp"
+            android:id="@+id/childunderweightBmiconsult3TextView"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Thừa cân và béo phì"
+            android:textSize="20sp"
+            android:id="@+id/chiloverweightBmiTextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:text="1. Tăng cường hoạt động thể lực: chạy chơi, đi bộ 30 – 45 phút/ ngày."
+            android:textSize="18sp"
+            android:id="@+id/chiloverweightBmiconsult1TextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="18sp"
+            android:layout_weight="1.2"
+            android:text="2.Nên chơi thường xuyên ít nhất một môn thể thao như bơi lợi, cầu lông, bóng đá, bóng rổ, bóng chuyền, bóng bàn, xe đạp ...  "
+            android:id="@+id/childoverweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="3.  Cần ngủ đủ giấc, đảm bảo 8 giờ mỗi ngày, ngủ sớm trước 22 giờ."
+            android:textSize="18sp"
+            android:id="@+id/childoverweightBmiconsult3TextView"
+            />
+    </LinearLayout>
+    </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

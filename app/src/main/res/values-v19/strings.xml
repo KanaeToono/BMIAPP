@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BMIapp</string>
+    <string name="check">Kiểm Tra</string>
+    <string name="checkBmi">Kiểm tra BMI</string>
+    <string name="checkCalo">Năng lượng tiêu hao</string>
+    <string name="checkBody">Kiểm tra vóc dáng (nữ)</string>
+    <string name="consult">Tư vấn</string>
+    <string name="consultweigh">Tư vấn cân nặng</string>
+    <string name="consultbody">Tư vấn body</string>
+    <string name="notebook">Ghi chú</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+</resources>

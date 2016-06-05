@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:background="#a6ffffff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/adultTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng ngực"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:text="1. Hạn chế thói quen nằm sấp khi ngủ, tránh thức khuya, dậy sớm, tránh xa stress."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Thường xuyên xoa bóp vòng 1, luyện tập thể thao đều đặn"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="3. Uống nhiều nước ( 2- 2,5l/ ngày)."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng eo"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Ngủ đủ giấc(7-8h/ ngày), uống nhiều nước, tránh xa stress"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Thường xuyên vận động, lên chiến lược thời gian biểu hợp lí để giảm cân."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:text="3. Hạn chế các trang phục bó sát hông. Tập hóp bụng thường xuyên."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/overweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng mông"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overrweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Tránh việc phải ngồi lâu, nên ngồi 1h , sau đó đứng dậy đi lại 5- 10p."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Uống nhiều nước, ngủ đủ giấc, tránh xa stress"
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

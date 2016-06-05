@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:background="#80ffffff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/adultTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng ngực"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.0"
+                    android:text="1. Cung cấp chất béo và profit cho cơ thể: đậu nành, thịt gà, lúa mạch , trứng. Các món ăn giàu estrogen như hạt mè, cà ri, cam thảo. Các thực phẩm giàu brom và manga như :táo, óc chó, hạnh nhân, lê, bắp, gừng, tỏi, các loại rau xanh. "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Ăn các món ăn như gà hầm đu đủ, bắp cải xào gừng , soup các loại hạt, gà hầm."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="3. Bổ sung 15mg VITAMIN E vào cơ thể hằng ngày."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/normalBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="4. Không nên ăn nhiều muối, coffee, nước uống có cồn, trà xanh."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng eo"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Kiểm soát lượng thực phẩm ăn vào hằng ngày, tránh thức ăn nhanh, ăn khuya, thức ăn ngọt, nhiều dầu mỡ."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Bổ sung thực phẩm giàu chất xơ: gạo lứt, bánh mì từ bột nguyên cám , rau... "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/underweightBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="3. Các loại hoa quả tiêu mỡ như: dứa, kiwi, các loại mọng, sữa chua, táo gừng. "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/overweightBmiTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Vòng mông"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overrweightBmiconsult1TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:text="1. Nếu vòng 3 hơi khủng nên hạn chế ăn các loại chất béo, soda, khoai tây chiên, tăng cường thực phẩm chứa protein: đậu phộng , giá đổ, thịt ức gà ."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overweightBmiconsult2TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1."
+                    android:text="2. Bổ sung vitamin A bằng các loại thực phẩm như cà rốt, xoài, đào, mơ, các loại quả."
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/overweightBmiconsult3TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="3.   Nên ăn nhiều rau cấp chất đường bột nhiều như: ngũ cốc, bánh mì đen... "
+                    android:textColor="#111111"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

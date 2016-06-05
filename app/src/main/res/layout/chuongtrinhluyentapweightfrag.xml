@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="5"
+    android:background="@color/primary_dark"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_margin="5dp"
+    android:layout_weight="5"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:background="#80ffffff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="Người lớn"
+    android:textSize="20sp"
+    android:id="@+id/adultTextView"
+    />
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="BMI-Bình Thường"
+    android:textSize="18sp"
+    android:id="@+id/normalBmiTextView"
+    />
+ <TextView
+     android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="BT1: Mỗi ngày dành 30p - 1h chơi các môn thể thao như: bóng rổ, bơi lội."
+    android:textSize="18sp"
+    android:id="@+id/normalBmiconsult1TextView"
+    />
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="BT2: Thực hiện các bài tập đơn giản: bật nhảy, treo người trên xà 20 -20p/ ngày."
+    android:textSize="18sp"
+    android:id="@+id/normalBmiconsult2TextView"/>
+        <!--<TextView-->
+            <!--android:textColor="#111111"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.8"-->
+    <!--android:text="3. Hàm lượng chất béo 600g/ tháng, chất đường ngọt 500g/ tháng."-->
+    <!--android:textSize="18sp"-->
+    <!--android:id="@+id/normalBmiconsult3TextView"-->
+    <!--/>-->
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text="Cân nặng thấp "
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiTextView"
+    />
+ <TextView
+     android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="BT1: Dành khoảng 30 -45p/ ngày để CHẠY BỘ vào buổi sáng hoặc chiều."
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult1TextView"
+    />
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="BT2: thực hiện BƠI LỘI 1 lần/ ngày hoặc 3-4 lần/ tuần. "
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult2TextView"/>
+        <TextView
+            android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:text="BT3: Dành 30p để luyện tập YOGA, kết hợp với đẩy tạ."
+    android:textSize="18sp"
+    android:id="@+id/underweightBmiconsult3TextView"
+    />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Thừa cân và Béo phì"
+            android:textSize="18sp"
+            android:id="@+id/overweightBmiTextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:text="BT1: ĐI BỘ bắt đầu bằng những đoạn đường ngắn(100-200m) làm thường xuyên, sau đó kéo dài đoạn đường đi, gia tăng khoảng cách, thời gian , tốc độ. "
+            android:textSize="18sp"
+            android:id="@+id/overrweightBmiconsult1TextView"
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:text="BT2: TĂNG CƯỜNG SỨC BỀN nằm trên sàn nhà, gập đầu gối và dùng cơ bụng nâng ngực, cổ và đầu. Thực hiện 10 lần lặp lại và tăng dần sau đó."
+            android:textSize="18sp"
+            android:id="@+id/overweightBmiconsult2TextView"/>
+        <TextView
+            android:textSize="18sp"
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:text="BT3 : BƠI LỘI : thực hiện 1 lần / tuần "
+            android:id="@+id/overweightBmiconsult3TextView"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

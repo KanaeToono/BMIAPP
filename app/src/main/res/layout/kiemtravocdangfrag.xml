@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/information"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="2.4"
+        android:background="#66FFFFFF">
+
+
+
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+               >
+
+                <EditText
+                    android:id="@+id/editText_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Chiều cao (cm)"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_round1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Vòng ngực"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_round2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Vòng eo"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_round3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="Vòng mông"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1.6"
+        android:background="#66FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/resultlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/textViewBMI"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#111111"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewResult"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/darkblue"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textViewKg"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/darkred"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@drawable/plus" />-->
+    </FrameLayout>
+
+    <!--<FrameLayout-->
+    <!--android:background="#4d388E3C"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.6">-->
+    <!--<LinearLayout-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="3"-->
+    <!--android:orientation="horizontal">-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/ctlt"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/plate"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:src="@drawable/tqsh"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->
+    <!--</FrameLayout>-->
+</LinearLayout>

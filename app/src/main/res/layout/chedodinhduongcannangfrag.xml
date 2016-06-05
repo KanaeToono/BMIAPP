@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="5"
+    android:background="@color/primary_dark"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_margin="5dp"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#80ffffff">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/adult"
+                    android:textSize="20sp"
+                    android:id="@+id/adultTextView"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="@string/bmi"
+                    android:textSize="18sp"
+                    android:id="@+id/normalBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:text="1. Cần duy trì chế độ ăn thường ngày. Ăn đa dạng thực phẩm, ăn đủ bữa, các bữa ăn đảm bảo chất bột, đạm, béo. Hạn chế chất đường ngọt."
+                    android:textSize="18sp"
+                    android:id="@+id/normalBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2. Tăng cường rau xanh, quả chín, các thực phẩm giàu canxi, cua đồng, tôm, tép, đậu hũ."
+                    android:textSize="18sp"
+                    android:id="@+id/normalBmiconsult2TextView"/>
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="3. Hàm lượng chất béo 600g/ tháng, chất đường ngọt 500g/ tháng."
+                    android:textSize="18sp"
+                    android:id="@+id/normalBmiconsult3TextView"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Cân nặng thấp"
+                    android:textSize="18sp"
+                    android:id="@+id/underweightBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Cần ăn đủ bữa, tránh hiện tượng lười ăn, bổ sung thêm các bữa phụ ( ăn 5 bữa/ ngày)."
+                    android:textSize="18sp"
+                    android:id="@+id/underweightBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:text="2. Nên ăn 1,5 g thịt/ ngày, cá 2- 3 bữa/ tuần. Ăn nhiều rau xanh (rau chân vịt), nhiều cũ quả, các loại đậu, khoai tây, đặc biệt hoa quả sấy khô, nước ép trái cây nguyên chất."
+                    android:textSize="18sp"
+                    android:id="@+id/underweightBmiconsult2TextView"/>
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="3. Mỗi ngày cung cấp 500calo từ thực đơn bổ dưỡng. "
+                    android:textSize="18sp"
+                    android:id="@+id/underweightBmiconsult3TextView"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Thừa cân"
+                    android:textSize="18sp"
+                    android:id="@+id/overweightBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Đảm bảo đủ 3 bữa/ ngày. Không ăn dặm thêm, không ăn đêm , ăn vặt."
+                    android:textSize="18sp"
+                    android:id="@+id/overrweightBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:text="2. Tránh sử dụng các thực phẩm nhiều chất béo như : mỡ, bơ, chân thịt gà... Và thực phẩm nhiều cholesterol như : gan, thận, lòng lợn và các món ăn xào rán, bánh mì bơ."
+                    android:textSize="18sp"
+                    android:id="@+id/overweightBmiconsult2TextView"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:text="3. Nên ăn 500g rau/ ngày. Sử dụng thực phẩm cung cấp nhiều chất đường bột, xơ như : ngũ cốc, bánh mì đen. Đảm bảo đủ đạm (tôm , cua, thịt ít mở) ,đủ vitamin, muối khoáng"
+                    android:id="@+id/overweightBmiconsult3TextView"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Trẻ em"
+                    android:textSize="20sp"
+                    android:id="@+id/childweightBmiTextView"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="BMI - Bình thường"
+                    android:textSize="20sp"
+                    android:id="@+id/normalweightBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Cần duy trì chế độ ăn uống thường ngày, nên ăn đa dạng thực phẩm, ăn đủ bữa."
+                    android:textSize="18sp"
+                    android:id="@+id/childnormalweightBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="2.  Hạn chế chất béo, chất đường ngọt. "
+                    android:textSize="18sp"
+                    android:id="@+id/childnormalweightBmiconsult2TextView"/>
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:text="3. Tăng cường rau xanh, quả chín, các thực phẩm giàu canxi như cua đồng, cá nhỏ nguyên xương, tôm tép nguyên vỏ, đậu hủ, sữa giàu canxi."
+                    android:textSize="18sp"
+                    android:id="@+id/childnormalweightBmiconsult3TextView"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Suy dinh dưỡng"
+                    android:textSize="20sp"
+                    android:id="@+id/childunderweightBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="1. Nên ăn nhiều hơn bình thường 1 bữa / ngày cho đến khi hết SDD."
+                    android:textSize="18sp"
+                    android:id="@+id/chilunderweightBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.4"
+                    android:text="2.Cần ăn đủ 3 bữa chính trong ngày với đủ 4 nhóm thực phẩm trong mỗi bữa và bổ sung thêm các bữa phụ bằng các thực phẩm dinh dưỡng cao năng lượng, giàu vi chất như sữa, sữa chua, bánh flant... Nên ăn thêm các loại quả sau bữa ăn như cam, quýt, chuối, bưởi…; ăn nhiều rau xanh, củ quả... vừa cung cấp các loại sinh tố, vừa cung cấp chất xơ ngăn ngừa táo bón."
+                    android:textSize="18sp"
+                    android:id="@+id/childunderweightBmiconsult2TextView"/>
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:text="3. Nên cho trẻ ăn các thực phẩm giàu canxi như cua đồng, cá nhỏ nguyên xương, tôm tép nguyên vỏ, đậu hủ, ..."
+                    android:textSize="18sp"
+                    android:id="@+id/childunderweightBmiconsult3TextView"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="Thừa cân và béo phì"
+                    android:textSize="20sp"
+                    android:id="@+id/chiloverweightBmiTextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.2"
+                    android:text="1.  Cần ăn đa dạng thực phẩm. Ăn nhiều rau, quả chín và thực phẩm nhiều chất xơ. Chế biến thức ăn hạn chế các món quay, xào, nên làm các món luộc, hấp.."
+                    android:textSize="18sp"
+                    android:id="@+id/chiloverweightBmiconsult1TextView"
+                    />
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="18sp"
+                    android:layout_weight="1.6"
+                    android:text="2. Uống đủ nước, đủ sữa, nên uống sữa dành cho trẻ thừa cân béo phì, sữa gầy (sữa bột tách bơ), sữa thấp lipid nghèo năng lượng... Không nên uống sữa thông thường hoặc sữa đặc có đường. Hạn chế sử dụng các thực phẩm béo, ngọt, nhiều muối như gà rán, thịt hộp, xúc xích, nước ngọt, chè, kem, ...bơ, mỡ, thịt ba chỉ, thịt mỡ, nước luộc thịt.... Không để các thức ăn cám dỗ lăn lóc quanh nhà. Đừng đặt những đĩa kẹo hoặc bánh quy ở bếp. Không dùng món tráng miệng hoặc kẹo làm phần thưởng cho trẻ."
+                    android:id="@+id/childoverweightBmiconsult2TextView"/>
+                <TextView
+                    android:textColor="#111111"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="3. Chia nhiều bữa nhỏ (5 – 6 bữa/ ngày), không ăn quá no trong một bữa. Nên ăn đều đặn, không bỏ bữa, không để quá đói sẽ ăn nhiều trong các bữa sau gây mỡ tích lũy nhanh hơn.  Ăn nhiều vào bữa sáng để tránh ăn vặt ở trường, giảm ăn chiều và tối, không cho trẻ ăn sau 8 giờ tối.Hướng dẫn trẻ nhai kỹ và chậm khi ăn. Tránh cho trẻ nhai kẹo cao su làm trẻ lúc nào cũng muốn nhai và ăn nhiều.  Không nên ăn vào lúc tối trước khi đi ngủ.."
+                    android:textSize="18sp"
+                    android:id="@+id/childoverweightBmiconsult3TextView"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>
